@@ -25,14 +25,3 @@ python matrix.py
 ```
 Follow on-screen instructions to input matrices and select operations.
 
-## 🛠 Error Handling
-- Validates matrix dimensions before operations.
-- Prevents singular matrix inversion.
-- Ensures correct input format.
-
-## 📜 License
-MIT License
-
-## 🤝 Contributing
-PRs are welcome! Open an issue for major changes.
-
