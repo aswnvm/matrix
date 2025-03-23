@@ -25,7 +25,7 @@ def main():
         
         if choice == 1:
             if matrix1.shape != matrix2.shape:
-                print("Error: Matrices must be of the same shape for addition.")
+                print("Error: Matrces must be of the same shape for addition.")
             else:
                 print("Result of Addition:")
                 print(matrix1 + matrix2)
@@ -57,7 +57,8 @@ def main():
         else:
             print("Inverse:")
             print(np.linalg.inv(matrix))
-    
+    # elif:
+    #   size = int(input("Enter size of square matrix: "))
     elif choice == 6:
         size = int(input("Enter size of square matrix: "))
         matrix = input_matrix(size, size)
